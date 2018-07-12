@@ -20,7 +20,7 @@ To begin, download each of the sofware's we will be working with. We'll exclude 
 
 We'll start off by exploring the "blotar" wekinator example in Max MSP. Blotar is a classic work of digital synthesis by Perry Cook, and it is a combination of the spectra of a guitar and a flute, hence the name. Open the appropriately titled Max MSP "patch" (name for a program) in this repo, click the speaker object and play with the parameters a bit. Despite the silly name, it is a digital instrument capable of an impressive range of sounds. We'll want to capture these possibilities in our Wekinator machine learning program.
 
-### Wekinator Basics
+### Wekinator Quick Demo
 
 Let's start with a crudely trained model demonstrating what we want to improve. Do the following:
 
@@ -34,6 +34,57 @@ Let's start with a crudely trained model demonstrating what we want to improve. 
 8. You should see the sliders in your touchscreen device. Move them and see what happens. Should be some drastic sounds.
 
 So what we have done is load a **pre-trained model** that is capable of controlling our instrument. Have some fun with it, and let's train some new models to understand how that works.
+
+### Wekinator Basics
+
+Simply put, Wekinator - and many common machine learning algorithms - work by trying to **map an input to a target output**. Say for example that we want to output the number 1 if we signal 1 with our left hand, 2 if we signal 2, 3 if we signal 3, and so on. With our input program and data inputs connected to Wekinator and it connected to our output program and data outputs, we simply set the output **parameter** to 1. We then **train** the Wekinator giving multiple hand signals of 1. Save, then set the output parameter to 2, train giving hand signals of 2, and so on. When we want to see its performance, we click the ```run``` mode and simply perform our hand signals and see if the results are satisfactory.
+
+Wekinator divides its learning algorithms into 3 classes: **classifiers**, **continuous** and **dynamic time-warping**. Let's focus on the first 2, as they are essential distinctions. Classifiers do as they say, they attempt to classify an input as belonging to a predefined category, or **label**. For example, let's say we want our machine learning program to recognize hand signals for the numbers 0-9. We could create 10 labels then, 1 for each number (including 0). We then train our program to classify inputs as belonging to 1 of the 10 categories. When we run our program, it will only output our number classes. It won't output, for example, 5.5. It will be either 5 or 6.
+
+Continuous learning, as you might guess, will not output specific classes but a value that approximates its output target. Its standard behavior is to output decimal (called **float** in computer science) data from 0.0 - 1.0. When we run our program we may see output of any value in that range even if we perfectly give the same hand signal as we did during training.
+
+Clearly then, if we are looking only for specific values (classes), we should choose a classifier model. If we want all possible values, or **interpolation** (the "sliding" from one value to another), we should choose a continuous model. Let's train 1 of each.
+
+### Classifier Training Example with Leap Motion and Processing
+
+1. Plug in your Leap Motion device
+2. Open the ```LeapMotion_Fingertips_15Inputs.pde``` file and click the "play" icon button
+3. Verify that you can see your hand in the Processing patch
+4. In Wekinator, select ```All classifiers``` and in ```options``` the **K-Nearest Neighbors** algorithm
+5. Click ```Start listening```
+6. Choose 15 inputs and 1 output and click ```Next```
+7. Record/train on hand signals for values 1-5 (select these manually next too ```outputs-1```)
+*Note: ```Record``` for just around half a second or a second at first, between 3-5 times for each hand signal. Then click ```Train``` before changing the output value and for the next hand signal.*
+8. When finished click ```Run``` and see how well it performs. What if you give the signal from a further or closer distance?
+9. Try different models, training sizes and distances to further gauge performance.
+
+Try the exact same training parameters but for the ```default continuous model``` (a neural network). How does this perform in comparison?
+
+*Note: Because continuous outputs floats between 0.0 - 1.0, try hand signals for 0.1, 0.2, 0.3.. 1. When we connect to our Max MSP instrument, we can choose from any range we wish.
+
+### Project: Instrument Design
+
+After experimenting more with different learning algorithms, we are ready to consider in greater depth how we might design our Max MSP "blotar" digital instrument to be controlled via machine learning with Leap Motion.
+
+At minimum, we can design for:
+
+1. Instrument parameters that give the full range of possible or interesting sound
+2. Gestures that naturally performable, expressive and distinct.
+3. Machine learning algorithm and training samples that yield satisfactory accuracy.
+
+Document your research and results - and have fun!
+
+TODO: Infrared light for dynamic time warping? Try. Create more experimental inputs and outputs.
+
+### Resources:
+
+1. [Examples of new digital instrument engineering](http://emerald.tufts.edu/programs/mma/emid/)
+2. [Wekinator How-To Guide(http://www.wekinator.org/detailed-instructions/)
+3. [Advanced Usage of Wekinator with WikiInputHelper (yes, another middleware1)](https://github.com/fiebrink1/WekiInputHelper/blob/master/README.md)
+4. [Comparison of Classification Algorithm Performance (useful)](https://github.com/fiebrink1/WekiInputHelper/blob/master/README.md)
+5. [Somewhat More Technical Comparison of ML Algorithms](http://www.cs.cmu.edu/~aarti/Class/10701/MLAlgo_Comparisons.pdf)
+
+
 
 
 
