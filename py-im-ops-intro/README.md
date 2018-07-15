@@ -31,11 +31,18 @@ The programs here are intended in the following order:
 Sources/resources:
 
 **Stanford CS231n Python-Numpy tutorial:** http://cs231n.github.io/python-numpy-tutorial/
+
 **scikit-image processing examples:** http://scikit-image.org/docs/dev/auto_examples/index.html
+
 **imgaug library with many image augmentation exs:** https://github.com/aleju/imgaug 
+
 **image kernels visually explained:** http://setosa.io/ev/image-kernels/
+
 **image convolution interactive python:** http://machinelearninguru.com/computer_vision/basics/convolution/image_convolution_1.html
+
 **edge detection tutorial in python:** http://blog.yhat.com/posts/image-processing-with-scikit-image.html
+
 **SVD image compression explanation:** https://blogs.sas.com/content/iml/2017/08/28/singular-value-decomposition-svd-sas.html
+
 **seam-carving tutorial in python:** https://karthikkaranth.me/blog/implementing-seam-carving-with-python?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more
 
