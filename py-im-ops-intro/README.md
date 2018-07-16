@@ -28,7 +28,7 @@ The programs here are intended in the following order:
 1. Have fun with this neat algorithm and find which images it works well with and not - and determine why.
 
 
-Sources/resources:
+### Sources/resources:
 
 **[Stanford CS231n Python-Numpy tutorial](http://cs231n.github.io/python-numpy-tutorial/)**
 
