@@ -40,3 +40,5 @@ or
 
 To do so: Uninstall Python 3.7 (or whatever you have) by going to control panel, uninstall a program, and then look for Python 3.5, click on it and press uninstall. After that download Python 3.5. BUT, this may also cause problems with your other packages, like Jupyer Notebook, so be prepared to have to either uninstall and reinstall those or modify paths.
 
+For example, if path is causing problmes, to modify a path: open environment variables select "Path" under "System Variables" change "C:\Python37" to "C:\Users\USERNAME\AppData\Local\Programs\Python\Python35" and "C:\Python37\scripts" to "C:\Users\USERNAME\AppData\Local\Programs\Python\Python35\scripts"
+
