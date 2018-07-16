@@ -35,3 +35,6 @@ and check that it is installed and functioning as expected by:
 ```python -c 'import tensorflow as tf; print(tf.__version__)'```
 or
 ```python3 -c 'import tensorflow as tf; print(tf.__version__)'```
+
+**Important**: As of this update, Tensorflow seems only supported up to 3.5, so if you have a later version of Python, you will need to uninstall it and reinstall version 3.5. To do so:
+```Uninstall Python 3.5 by going to control panel, uninstall a program, and then look for Python 3.5, click on it and press uninstall. After that download Python 3.4. I don't know any other ways but I think that should work.```
