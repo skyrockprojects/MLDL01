@@ -6,6 +6,9 @@ The content here is designed to introduce new and intermediate programmers to th
 
 **Prerequisites:** Maybe none, though the less familiarity one has with linear algebra, programming and data science will mean the more of these subjects you will likely have to learn in tandem with the content contained here. Regardless, most of us new to machine and deep learning will have to review and explore the content many times over until it all starts to become clear. Fear not, dive in. The necessary resources for further/contextual learning will be linked out in the code and in each README.md
 
+|Intro to Python|Intro to Tensorflow|Machine Learning|Deep Learning|Exploring Models|Applications|
+|---|---|---|---|---|---|
+
 **Installation:** The programs contained herein require quite a few platforms and packages. Simple installs can be done as you go along usually with ```pip install [PACKAGE NAME]```. However, if you do not have Python3, Jupyter Notebook or Tensorflow, you should install those now.
 
 **[Install the latest version of Python 3 here](https://www.python.org/downloads/)** and find its documentation [here](https://docs.python.org/3/)
