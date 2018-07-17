@@ -36,7 +36,8 @@ and check that it is installed and functioning as expected by:
 or
 ```python3 -c 'import tensorflow as tf; print(tf.__version__)'```
 
-**Important**: As of this update, Tensorflow seems only supported up to 3.5, so if you have a later version of Python, you will need to uninstall it and reinstall version 3.5. 
+
+**Important**: As of this update, Tensorflow seems only supported up to 3.5, so if you have a later version of Python, you will need to uninstall it and reinstall version 3.5.
 
 To do so: Uninstall Python 3.7 (or whatever you have) by going to control panel, uninstall a program, and then look for Python 3.5, click on it and press uninstall. After that download Python 3.5. BUT, this may also cause problems with your other packages, like Jupyer Notebook, so be prepared to have to either uninstall and reinstall those or modify paths.
 
