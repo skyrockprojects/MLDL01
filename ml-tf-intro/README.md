@@ -32,4 +32,4 @@ The order of programs are:
 5. [Code source for some examples](https://github.com/pkmital/CADL/blob/master/session-2/lecture-2.ipynb)
 6. [Online TF training visualizer](http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=0&networkShape=4,2&seed=0.92714&showTestData=false&discretize=false&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false)
 7. [Google's ML Glossary](https://developers.google.com/machine-learning/glossary/?utm_source=google-ai&utm_medium=card-image&utm_campaign=training-hub&utm_content=ml-glossary)
-8. [The "Deep Learning Book"](http://www.deeplearningbook.org/) - for the technically-inclined
+8. [The "Deep Learning Book"](http://www.deeplearningbook.org/) - for the technically inclined
