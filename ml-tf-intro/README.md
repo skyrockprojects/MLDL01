@@ -28,6 +28,7 @@ The order of programs are:
 1. Implement tensorboard!
 2. Add a 2nd (or 3rd..) linear layer
 3. Add activation functions
+4. Add fashionMNIST https://github.com/zalandoresearch/fashion-mnist
 
 ### Sources and Resources
 
