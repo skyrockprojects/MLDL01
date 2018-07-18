@@ -23,6 +23,12 @@ The order of programs are:
 2. For the layered regression model with activation functions, try out different activation functions and hyperparameters - which combination do you find works best?
 3. Implement the tensorboard from the previous program to better inspect the model's performance.
 
+### simple-linear-models
+
+1. Implement tensorboard!
+2. Add a 2nd (or 3rd..) linear layer
+3. Add activation functions
+
 ### Sources and Resources
 
 1. [Google scholar intro to Tensorflow vs Python](https://jacobbuckman.com/post/tensorflow-the-confusing-parts-1/#understanding-tensorflow)
