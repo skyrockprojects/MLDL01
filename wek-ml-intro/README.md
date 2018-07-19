@@ -79,7 +79,7 @@ TODO: Infrared light for dynamic time warping? Try. Create more experimental inp
 ### Resources:
 
 1. [Examples of new digital instrument engineering](http://emerald.tufts.edu/programs/mma/emid/)
-2. [Wekinator How-To Guide(http://www.wekinator.org/detailed-instructions/)
+2. [Wekinator How-To Guide](http://www.wekinator.org/detailed-instructions/)
 3. [Advanced Usage of Wekinator with WikiInputHelper (yes, another middleware1)](https://github.com/fiebrink1/WekiInputHelper/blob/master/README.md)
 4. [Comparison of Classification Algorithm Performance (useful)](https://github.com/fiebrink1/WekiInputHelper/blob/master/README.md)
 5. [Somewhat More Technical Comparison of ML Algorithms](http://www.cs.cmu.edu/~aarti/Class/10701/MLAlgo_Comparisons.pdf)
