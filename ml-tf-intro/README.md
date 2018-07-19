@@ -17,17 +17,18 @@ The order of programs are:
 3. List the steps to create and execute a "graph" and "session"
 4. Practice visualizing the graph in tensorboard - compare different runs with different learning rates. What is the best learning rate you can find for the demo model?
 
-### ml-intro-2
+### ml-intro-2 [TO DO - change naming convention to linear feature vs linear logistic intro]
 
 1. Display the first linear regression plot each 100 or so steps so we can visualize its performance as it trains
 2. For the layered regression model with activation functions, try out different activation functions and hyperparameters - which combination do you find works best?
 3. Implement the tensorboard from the previous program to better inspect the model's performance.
+4. Add additional layers with varying widths - what works better?
 
 ### simple-linear-models
 
 1. Implement tensorboard!
-2. Add a 2nd (or 3rd..) linear layer
-3. Add activation functions
+2. [Understand the difference between regression for features vs class](https://medium.com/all-of-us-are-belong-to-machines/gentlest-intro-to-tensorflow-4-logistic-regression-2afd0cabc54)
+3. Add activation functions - do they help or hurt with feature learning linear regression vs. logistic linear regression?
 4. Add Google Draw dataset https://quickdraw.withgoogle.com/data
 5. Add fashionMNIST dataset https://github.com/zalandoresearch/fashion-mnist
 
