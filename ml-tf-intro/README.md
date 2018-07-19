@@ -24,7 +24,7 @@ The order of programs are:
 3. Implement the tensorboard from the previous program to better inspect the model's performance.
 4. Add additional layers with varying widths - what works better?
 
-### simple-linear-models [TO DO - fix/rename the multi-layer perceptron]
+### simple-linear-models [TO DO - fix/rename the multi-layer perceptron] -compare tensorboards [here](https://github.com/aymericdamien/TensorFlow-Examples/blob/master/notebooks/3_NeuralNetworks/neural_network_raw.ipynb)
 
 1. Implement tensorboard!
 2. [Understand the difference between regression for features vs class](https://medium.com/all-of-us-are-belong-to-machines/gentlest-intro-to-tensorflow-4-logistic-regression-2afd0cabc54)
