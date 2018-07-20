@@ -7,4 +7,4 @@ try:
 4. Add additional convolutional layers
 
 ### Sources/Resources:
-1. [Visualization/explanation of convolutional neural network](http://www.jessicayung.com/explaining-tensorflow-code-for-a-convolutional-neural-network/)
+1. [Visualization/explanation of convolutional neural network](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)
