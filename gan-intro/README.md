@@ -28,3 +28,5 @@ try:
 1. [Good GAN explanation with code](https://www.oreilly.com/learning/generative-adversarial-networks-for-beginners)
 2. [GAN explanation with Sponge-Bob](https://medium.com/@awjuliani/generative-adversarial-networks-explained-with-a-classic-spongebob-squarepants-episode-54deab2fce39)
 3. [DCGAN explanation with code](https://github.com/kvfrans/generative-adversial)
+4. [Collection of different GANs in code](https://github.com/wiseodd/generative-models)
+5. [Troubleshooting GANs](https://github.com/soumith/ganhacks)
