@@ -16,6 +16,13 @@ try:
 3. Implement 3-dimensional data, such as CIFAR-10
 4. Implement convolutional layer and compare performance
 
+### DC-gan
+
+try:
+1. Implement all of the usual tools and datasets
+2. Implement 3-dimensional data
+3. Implement weight visualization
+
 ### Sources/Resources:
 
 1. [Good GAN explanation with code](https://www.oreilly.com/learning/generative-adversarial-networks-for-beginners)
