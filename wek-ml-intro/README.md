@@ -62,6 +62,13 @@ Try the exact same training parameters but for the ```default continuous model``
 
 *Note: Because continuous outputs floats between 0.0 - 1.0, try hand signals for 0.1, 0.2, 0.3.. 1. When we connect to our Max MSP instrument, we can choose from any range we wish.
 
+*WINDOWS Troubleshooting - it seems the OSC communication between Leap Motion and Processing breaks down in Windows OS. To workaround, see the Processing console where it states p5.Osc has stopped, and then it states that it has restarted at some https://192... address. Copy the address where it has restarted. Then paste the address replacing "this" in the Processing sketch code below:
+
+```  /* start oscP5, listening for incoming messages at port 12000 */
+  oscP5 = new OscP5(this,9000);
+  dest = new NetAddress("127.0.0.1",6448);
+  ```
+
 ### Project: Instrument Design
 
 After experimenting more with different learning algorithms, we are ready to consider in greater depth how we might design our Max MSP "blotar" digital instrument to be controlled via machine learning with Leap Motion.
