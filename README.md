@@ -8,6 +8,9 @@ The content here is designed to introduce new and intermediate programmers to th
 
 |Intro to Python|Intro to Tensorflow|Machine Learning|Deep Learning|Exploring Models|Applications|
 |---|---|---|---|---|---|
+|Python fundamentals|
+|Plotting and image processing|
+|---|
 
 **Installation:** The programs contained herein require quite a few platforms and packages. Simple installs can be done as you go along usually with ```pip install [PACKAGE NAME]```. However, if you do not have Python3, Jupyter Notebook or Tensorflow, you should install those now.
 
