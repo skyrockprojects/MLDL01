@@ -28,7 +28,7 @@ Hopefully, these both show the version of Python3 you just installed. If not, tr
 and
 ```pip3 --version```
 
-**Jupyter Notebook** allows us to run Python and Tensorflow interactively in a web browser. The majority of programs in this course will feature Jupyter Notebooks. The installation though also requires **Anaconda**. Instructions for installing both can be found [here](http://jupyter.org/install)
+**Jupyter Notebook** allows us to run Python and Tensorflow interactively in a web browser. The majority of programs in this course will feature Jupyter Notebooks. The installation suggests installing **Anaconda** as well, though you can simply do a pip install instead. Instructions for installing both can be found [here](http://jupyter.org/install)
 
 If the install is successful, you should be able to open a "notebook" in your browser by executing the following command in your terminal/command line editor
 
