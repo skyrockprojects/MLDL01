@@ -6,7 +6,7 @@ The content here is designed to introduce new and intermediate programmers to th
 
 **Prerequisites:** Maybe none, though the less familiarity one has with linear algebra, programming and data science will mean the more of these subjects you will likely have to learn in tandem with the content contained here. Regardless, most of us new to machine and deep learning will have to review and explore the content many times over until it all starts to become clear. Fear not, dive in. The necessary resources for further/contextual learning will be linked out in the code and in each README.md
 
-|Intro to Python|Intro to Tensorflow|Machine Learning|Project: Creative and Functional ML|Deep Learning with CNNs and GANs|Advanced Models and Feature Visualization|Final Project and Specialized Areas
+|Intro to Python|Intro to Tensorflow|Machine Learning|Project: Creative and Functional ML|Deep Learning with CNNs and GANs|State of the Art Models and Feature Visualization|Final Project and Specialized Areas
 |---|---|---|---|---|---|---|
 |Python fundamentals|Tensorflow fundamentals|Basic linear model|Wekinator and gesture recognition|Convolutional layers|Visualization techniques|Natural language processing
 |Plotting and image processing|Graphs, sessions and tools|Basic logistic model|Inclusive and creative instrument design with ML|Generator and discriminator networks|Google's Inception model|Deep audio with Nsynth
