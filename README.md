@@ -8,10 +8,11 @@ The content here is designed to introduce new and intermediate programmers to th
 
 |Intro to Python|Intro to Tensorflow|Machine Learning|Project: Creative and Functional ML|Deep Learning with CNNs and GANs|Advanced Models and Feature Visualization|Final Project and Specialized Areas
 |---|---|---|---|---|---|---|
-|Python fundamentals|Tensorflow fundamentals|Basic linear model|Wekinator and gesture recognition
+|Python fundamentals|Tensorflow fundamentals|Basic linear model|Wekinator and gesture recognition|
+
 |Plotting and image processing|Graphs, sessions and tools|Basic logistic model|Inclusive and creative instrument design with ML|
-|Combining ML with misc. hardware/software (Max MSP, Arduino, etc.)|
-| |Intro to regression and optimization|Standard and different datasets|
+
+| |Intro to regression and optimization|Standard and different datasets||Combining ML with misc. hardware/software (Max MSP, Arduino, etc.)|
 
 **Installation:** The programs contained herein require quite a few platforms and packages. Simple installs can be done as you go along usually with ```pip install [PACKAGE NAME]```. However, if you do not have Python3, Jupyter Notebook or Tensorflow, you should install those now.
 
