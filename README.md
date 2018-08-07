@@ -8,13 +8,15 @@ The content here is designed to introduce new and intermediate programmers to th
 
 |Intro to Python|Intro to Tensorflow|Machine Learning|Project: Creative and Functional ML|Deep Learning with CNNs and GANs|State of the Art Models and Feature Visualization|Final Project and Specialized Areas
 |---|---|---|---|---|---|---|
-|Python fundamentals|Tensorflow fundamentals|Basic linear model|Wekinator and gesture recognition|Convolutional layers|Visualization techniques|Natural language processing
-|Plotting and image processing|Graphs, sessions and tools|Basic logistic model|Inclusive and creative instrument design with ML|Generator and discriminator networks|Google's Inception model|Deep audio with Nsynth
-| |Intro to regression and optimization|Standard and different datasets|Combining ML with misc. hardware/software (Max MSP, Arduino, etc.)||Deep fakes|Student-directed projects
+|System setup and installations|Tensorflow fundamentals|Basic linear model|Wekinator and gesture recognition|Convolutional layers|Visualization techniques|Natural language processing
+|Python fundamentals|Graphs, sessions and tools|Basic logistic model|Inclusive and creative instrument design with ML|Generator and discriminator networks|Google's Inception model|Deep audio with Nsynth
+|Plotting and image processing|Intro to regression and optimization|Standard and different datasets|Combining ML with misc. hardware/software (Max MSP, Arduino, etc.)||Deep fakes|Student-directed projects
 
 **Installation:** The programs contained herein require quite a few platforms and packages. Simple installs can be done as you go along usually with ```pip install [PACKAGE NAME]```. However, if you do not have Python3, Jupyter Notebook or Tensorflow, you should install those now.
 
-**[Install the latest version of Python 3 here](https://www.python.org/downloads/)** and find its documentation [here](https://docs.python.org/3/)
+**Important!** As of this writing, Tensorflow only supports up to Python 3.6, so *do not* install Python 3.7 or later until it is verified that Tensorflow supports it. Else, you'll have to uninstall and reinstall Python and possibly deal with path issues and further uninstall/reinstall procedures for dependencies - not fun!
+
+**[Install Python 3.6 here](https://www.python.org/downloads/)** and find its documentation [here](https://docs.python.org/3/)
 
 Verify that Python 3 and PIP are installed correctly by opening your terminal/command line editor and running
 ```python --version```
@@ -26,7 +28,7 @@ Hopefully, these both show the version of Python3 you just installed. If not, tr
 and
 ```pip3 --version```
 
-**Jupyter Notebook** allows us to run Python and Tensorflow interactively in a web browser. The majority of programs in this course will feature Jupyter Notebooks. The installation though also requires **Anaconda**. Instructions for installing both can be found [here](http://jupyter.org/install)
+**Jupyter Notebook** allows us to run Python and Tensorflow interactively in a web browser. The majority of programs in this course will feature Jupyter Notebooks. The installation suggests installing **Anaconda** as well, though you can simply do a pip install instead. Instructions for installing both can be found [here](http://jupyter.org/install)
 
 If the install is successful, you should be able to open a "notebook" in your browser by executing the following command in your terminal/command line editor
 
@@ -40,9 +42,5 @@ or
 ```python3 -c 'import tensorflow as tf; print(tf.__version__)'```
 
 
-**Important**: As of this update, Tensorflow seems only supported up to 3.5, so if you have a later version of Python, you will need to uninstall it and reinstall version 3.5.
-
-To do so: Uninstall Python 3.7 (or whatever you have) by going to control panel, uninstall a program, and then look for Python 3.5, click on it and press uninstall. After that download Python 3.5. BUT, this may also cause problems with your other packages, like Jupyer Notebook, so be prepared to have to either uninstall and reinstall those or modify paths.
-
-For example, if path is causing problmes, to modify a path: open environment variables select "Path" under "System Variables" change "C:\Python37" to "C:\Users\USERNAME\AppData\Local\Programs\Python\Python35" and "C:\Python37\scripts" to "C:\Users\USERNAME\AppData\Local\Programs\Python\Python35\scripts"
+**Troubleshooting**: If you have installed Python 3.7, you will need to uninstall and reinstall 3.6 or below for it to work with Tensorflow (at least as of this writing).  
 
