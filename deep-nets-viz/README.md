@@ -17,3 +17,7 @@ try:
 2. How can people tell a fake from a real celebrity?
 3. Make changes to a deep fake while maintaining the identity
 4. Use vector math (add and/or subtract positions) to find meaningful relationships between features
+
+### Sources and Resources
+1. [Distill pub's awesome feature visualization blog/code](https://distill.pub/2017/feature-visualization/)
+2. [Google tf-hub deep fakes](https://www.tensorflow.org/hub/modules/google/progan-128/1)
