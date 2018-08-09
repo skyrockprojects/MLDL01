@@ -6,6 +6,7 @@ We will focus on **Convolutional Neural Networks**, which are fairly ubiquitous 
 
 Finally, we are going to start using a free (at the moment) service called **Google Colaboratory**. Basically, it is like Jupyter Notebook but hosted in the "Cloud" by Google. The whole point is they offer free GPU usage, which will speed up our code 2-4 times. With deep learning models, we really want this speed boost whenever we can get it, because they can take a very long time to compute.
 
+
 try:
 1. Implement tensorboard! (Note, I have implemented tensorboard in the Colab models for you - just click the link in the code!)
 2. Change convolutional layers' parameters and document performance results
