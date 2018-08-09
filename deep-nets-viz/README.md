@@ -21,3 +21,5 @@ try:
 ### Sources and Resources
 1. [Distill pub's awesome feature visualization blog/code](https://distill.pub/2017/feature-visualization/)
 2. [Google tf-hub deep fakes](https://www.tensorflow.org/hub/modules/google/progan-128/1)
+
+### TO-DO: save out jpg w/ deepfakes and 3d model them here: http://cvl-demos.cs.nott.ac.uk/vrn/
